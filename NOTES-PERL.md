@@ -82,6 +82,10 @@ requirements down. There are just a few exceptions.
    This module is required for testing only!  If you don't plan on running
    the tests, you don't need to bother with this one.
 
+ * `Win32::LongPath` this is required *for building when targeting Android on Windows*
+
+   This module is used to convert short paths to long file paths. 
+
 Notes on installing a Perl module
 ---------------------------------
 
